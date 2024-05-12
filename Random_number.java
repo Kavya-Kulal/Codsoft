@@ -8,7 +8,7 @@ class Random_number
 	 {
 		int i=1;
 		DataInputStream in=new DataInputStream(System.in);
-		while(i<10)
+		while(i<=10)
 		{
 		System.out.println("Enter you guessed number 1 to 100");
 		int num=Integer.parseInt(in.readLine());
@@ -17,7 +17,7 @@ class Random_number
 			System.out.println(i+"- attempt");
 			if(diff==0)
 			{
-				System.out.println("Wow wonderful. you win the game in "+i+1+" th attempt");
+				System.out.println("Wow wonderful. you win the game in "+i+" th attempt");
 				
 				break;
 				
